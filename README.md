@@ -242,6 +242,21 @@ Para utilizar o projeto no HPS da DE1-SoC:
 
 ---
 
+## ✅ Conclusão
+
+O projeto da 2ª etapa do Zoom Digital em FPGA permitiu a implementação de uma API em **Assembly ARM** para comunicação direta com o coprocessador da placa DE1-SoC. Durante os testes, foi possível observar que:
+
+- A integração entre HPS e FPGA viabiliza a transferência eficiente de imagens em **escala de cinza**, garantindo compatibilidade com operações implementadas via hardware da placa.  
+- A execução das instruções da ISA do coprocessador mostrou-se precisa, permitindo controlar o zoom in e zoom out usando operações pré-definidas com botões.  
+- O uso de mapeamento de memória e interfaces PIO assegurou comunicação rápida e confiável entre o processador e os módulos de hardware.  
+- A combinação de programação em **Assembly** para o coprocessador e em **C** para testes permitiu uma abordagem modular e segura, facilitando a depuração e validação dos resultados.
+
+O sistema desenvolvido demonstrou robustez e autonomia, utilizando apenas os recursos da DE1-SoC, sem depender de processadores externos adicionais. Os resultados confirmam que o coprocessador é capaz de executar operações de forma eficiente e permitindo flexibilidade na escolha das instruções.
+
+Em síntese, o projeto evidencia a viabilidade de desenvolver soluções de processamento de imagens diretamente em hardware, combinando **eficiência, controle e integração hardware-software**.
+
+---
+
 ## 🖥️ Contribuidores
 
 [<img src="https://github.com/FelipeBastosz.png" width="80" height="80">](https://github.com/FelipeBastosz)     [<img src="https://github.com/limajonatas.png" width="80" height="80">](https://github.com/limajonatas)     [<img src="https://github.com/enejota-njs.png" width="80" height="80">](https://github.com/enejota-njs) 
