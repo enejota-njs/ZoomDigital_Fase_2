@@ -246,11 +246,15 @@ Para utilizar o projeto no HPS da DE1-SoC:
 
 A interface inicial ao iniciar o programa no terminal é a seguinte:
 
-![Menu](ZoomDigital/Imagens/Menu.png)
+<p align="center">
+  <img src="ZoomDigital/Imagens/Menu.png" width="60%">
+</p>
 
 Primeiramente, a memória inicializa sem imagens, como mostra o monitor abaixo sem conteúdo carregado.
 
-![Monitor](ZoomDigital/Imagens/Monitor%20Vazio.jpg)
+<p align="center">
+  <img src="ZoomDigital/Imagens/Monitor%20Vazio.jpg" width="60%">
+</p>
 
 Para carregar, basta escolher a opção **5** no teclado:
 
