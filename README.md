@@ -242,6 +242,10 @@ Para utilizar o projeto no HPS da DE1-SoC:
 
 ---
 
+## ⚙️ Testes de funcionamento
+
+FALTA SÓ OS TESTES
+
 ## ✅ Conclusão
 
 O projeto da 2ª etapa do Zoom Digital em FPGA permitiu a implementação de uma API em **Assembly ARM** para comunicação direta com o coprocessador da placa DE1-SoC. Durante os testes, foi possível observar que:
