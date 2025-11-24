@@ -242,9 +242,26 @@ Para utilizar o projeto no HPS da DE1-SoC:
 
 ---
 
-## ⚙️ Testes de funcionamento
+## ⚙️ Interfaces e Testes de funcionamento
 
-FALTA SÓ OS TESTES
+A interface inicial ao iniciar o programa no terminal é a seguinte:
+
+![Menu](ZoomDigital/Imagens/Menu.png)
+
+Primeiramente, a memória inicializa sem imagens, como mostra o monitor abaixo sem conteúdo carregado.
+
+![Monitor](ZoomDigital/Imagens/Monitor%20Vazio.jpg)
+
+Para carregar, basta escolher a opção **5** no teclado:
+
+<p align="center">
+  <img src="Open.png" width="45%">
+  <img src="Imagem Normal.jpg" width="45%">
+</p>
+
+#### Primeiro teste : Decimação
+
+
 
 ## ✅ Conclusão
 
