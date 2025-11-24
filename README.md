@@ -12,6 +12,18 @@ O objetivo é transformar o controle de hardware (botões) em chamadas de softwa
 
 ---
 
+## 📝 Requisitos da 2ª Etapa
+
+- O código da API deve ser escrito em **linguagem Assembly**.  
+- O sistema só poderá utilizar os **componentes disponíveis na placa**.  
+- A API deve implementar os **comandos da ISA do coprocessador**.  
+  - As instruções devem utilizar as operações previamente implementadas via **chaves e botões na placa** (ver Problema 1).  
+- As imagens devem ser representadas em **escala de cinza**, sendo que cada pixel é representado por um **número inteiro de 8 bits**.  
+- A imagem deve ser **lida a partir de um arquivo** e transferida para o coprocessador.  
+- O coprocessador deve ser **compatível com o processador ARM (Hard Processor System - HPS)** para viabilizar o desenvolvimento da solução.
+
+---
+
 ## ⚙️ Especificações
 
 - **🧠 Linguagem Principal:** Assembly ARM (para a API/Driver) e C (para a aplicação de teste)
@@ -22,7 +34,10 @@ O objetivo é transformar o controle de hardware (botões) em chamadas de softwa
   - **Zoom Out (Redução):** Decimação e Média de Blocos
 - **🎛️ Controle:** Aplicação em C com interface de texto (teclado)
 - **🖥️ Saída de vídeo:** VGA (controlada pelo módulo FPGA)
-- **🔗 Interface:** Mapeamento de memória (`/dev/mem`) para comunicação entre HPS e FPGA.
+- **🔗 Interface:** Mapeamento de memória (`/dev/mem`) para comunicação entre HPS e FPGA
+- **🛠️ Ferramentas de desenvolvimento:** 
+  - Quartus Prime II versão 23.1  
+  - Platform Designer (para criação dos módulos PIO)
 
 ---
 
