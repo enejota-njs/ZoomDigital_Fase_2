@@ -342,16 +342,13 @@ Para utilizar o projeto no HPS da DE1-SoC:
 <details>
   <summary><h2>✅ Conclusão</h2></summary>
 
-O projeto da 2ª etapa do Zoom Digital em FPGA permitiu a implementação de uma API em **Assembly ARM** para comunicação direta com o coprocessador da placa DE1-SoC. Durante os testes, foi possível observar que:
+- A conclusão da 2ª etapa do projeto Zoom Digital em FPGA evidencia que todo o sistema desenvolvido apresentou desempenho consistente e funcionamento integral. A API implementada em Assembly estabeleceu comunicação eficiente com o coprocessador desenvolvido, permitindo o envio, o processamento e a manipulação de imagens em escala de cinza de forma estável. Todas as instruções definidas na ISA do coprocessador foram executadas corretamente, demonstrando plena aderência ao comportamento esperado em hardware.
 
-- A integração entre HPS e FPGA viabiliza a transferência eficiente de imagens em **escala de cinza**, garantindo compatibilidade com operações implementadas via hardware da placa.  
-- A execução das instruções da ISA do coprocessador mostrou-se precisa, permitindo controlar o zoom in e zoom out usando operações pré-definidas com botões.  
-- O uso de mapeamento de memória e interfaces PIO assegurou comunicação rápida e confiável entre o processador e os módulos de hardware.  
-- A combinação de programação em **Assembly** para o coprocessador e em **C** para testes permitiu uma abordagem modular e segura, facilitando a depuração e validação dos resultados.
+- Além das funcionalidades originalmente previstas, foram incorporados aprimoramentos nos algoritmos de zoom in, que incluem o uso de **offsets** para deslocamento da área processada. Esses recursos adicionais ampliaram a flexibilidade do sistema, permitindo selecionar diferentes regiões da imagem durante a execução das operações. Os testes confirmaram que esses mecanismos atuaram de maneira precisa, mantendo a integridade da imagem e o controle adequado dos endereços de leitura e escrita na memória.
 
-O sistema desenvolvido demonstrou robustez e autonomia, utilizando apenas os recursos da DE1-SoC, sem depender de processadores externos adicionais. Os resultados confirmam que o coprocessador é capaz de executar operações de forma eficiente e permitindo flexibilidade na escolha das instruções.
+- O conjunto de testes realizados comprova a confiabilidade da comunicação entre HPS e FPGA, bem como a robustez da integração hardware–software utilizada no projeto. O sistema operou exclusivamente com os recursos da própria DE1-SoC, dispensando qualquer suporte externo, e demonstrou capacidade para executar as operações propostas de forma coerente e eficiente.
 
-Em síntese, o projeto evidencia a viabilidade de desenvolver soluções de processamento de imagens diretamente em hardware, combinando **eficiência, controle e integração hardware-software**.
+- Diante dos resultados obtidos, conclui-se que o projeto atendeu plenamente aos objetivos estabelecidos, com todas as funcionalidades, incluindo as melhorias com offset, funcionando conforme especificado.
 
 </details>
 
