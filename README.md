@@ -371,6 +371,10 @@ Em síntese, o projeto evidencia a viabilidade de desenvolver soluções de proc
 
 Disponível em: <a href="https://github.com/enejota-njs/ZoomDigital_Fase_1" target="_blank">https://github.com/enejota-njs/ZoomDigital_Fase_1</a>
 
+</details>
+
+---
+
 <details>
   <summary><h2>📚 Referências</h2></summary>
 
