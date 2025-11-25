@@ -244,28 +244,64 @@ Para utilizar o projeto no HPS da DE1-SoC:
 
 ## ⚙️ Interfaces e Testes de funcionamento
 
-A interface inicial ao iniciar o programa no terminal é a seguinte:
+#### A interface inicial ao iniciar o programa no terminal é a seguinte:
 
 <p align="center">
   <img src="ZoomDigital/Imagens/Menu.png" width="60%">
 </p>
 
-Primeiramente, a memória inicializa sem imagens, como mostra o monitor abaixo sem conteúdo carregado.
+#### Primeiramente, a memória inicializa sem imagens, como mostra o monitor abaixo sem conteúdo carregado:
 
 <p align="center">
   <img src="ZoomDigital/Imagens/Monitor%20Vazio.jpg" width="60%">
 </p>
 
-Para carregar, basta escolher a opção **5** no teclado:
+#### Para carregar, basta escolher a opção **5** no teclado:
 
 <p align="center">
-  <img src="Open.png" width="45%">
-  <img src="Imagem Normal.jpg" width="45%">
+  <img src="ZoomDigital/Imagens/Open.png" width="45%">
+  <img src="ZoomDigital/Imagens/Imagem Normal.jpg" width="52%">
 </p>
 
-#### Primeiro teste : Decimação
+#### Algoritmo: Vizinho Mais Próximo -> Opção 1 com navegação nas teclas WASD:
 
+- Iniciando com as coordenadas: X = 20, Y = 50. E navegando com as teclas:
 
+<p align="center">
+  <img src="ZoomDigital/Imagens/Vizinho.png" width="35%">
+  <img src="ZoomDigital/Imagens/Video Vizinho.gif" width="58%">
+</p>
+
+#### Algoritmo: Replicação de Pixel -> Opção 2 com navegação nas teclas WASD:
+
+- Iniciando com as coordenadas: X = 160, Y = 120. E navegando com as teclas: 
+
+<p align="center">
+  <img src="ZoomDigital/Imagens/Replicacao.png" width="37%">
+  <img src="ZoomDigital/Imagens/Video Replicacao.gif" width="57%">
+</p>
+
+#### Algoritmo: Decimação -> Opção 3:
+
+<p align="center">
+  <img src="ZoomDigital/Imagens/Decimacao.png" width="41%">
+  <img src="ZoomDigital/Imagens/Imagem Decimacao.jpg" width="50%">
+</p>
+
+#### Algoritmo: Média de Blocos -> Opção 4:
+
+<p align="center">
+  <img src="ZoomDigital/Imagens/Media.png" width="44%">
+  <img src="ZoomDigital/Imagens/Imagem Media de Blocos.jpg" width="54%">
+</p>
+
+#### Finalização -> Opção 0:
+
+<p align="center">
+  <img src="ZoomDigital/Imagens/FInalizado.png" width="60%">
+</p>
+
+---
 
 ## ✅ Conclusão
 
