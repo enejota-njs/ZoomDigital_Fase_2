@@ -21,7 +21,7 @@ O objetivo é transformar o controle de hardware (botões) em chamadas de softwa
 - O código da API deve ser escrito em **linguagem Assembly**.  
 - O sistema só poderá utilizar os **componentes disponíveis na placa**.  
 - A API deve implementar os **comandos da ISA do coprocessador**.  
-  - As instruções devem utilizar as operações previamente implementadas via **chaves e botões na placa** (ver Problema 1).  
+- As instruções devem utilizar as operações previamente implementadas via **chaves e botões na placa** (ver Problema 1).  
 - As imagens devem ser representadas em **escala de cinza**, sendo que cada pixel é representado por um **número inteiro de 8 bits**.  
 - A imagem deve ser **lida a partir de um arquivo** e transferida para o coprocessador.  
 - O coprocessador deve ser **compatível com o processador ARM (Hard Processor System - HPS)** para viabilizar o desenvolvimento da solução.
